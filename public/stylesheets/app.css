@@ -7,3 +7,15 @@
     width: 100%;
     height: 300px;
 }
+
+@media screen and (max-width: 740px) {
+    #mapShift{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+
+    .maxWidth{
+        width: 100%;
+    }
+}
